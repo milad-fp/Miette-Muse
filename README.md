@@ -10,7 +10,7 @@ The website focuses on a warm visual experience, attractive product presentation
 
 ## 🌐 Live Demo
 
-🔗 [View Live Website](https://milad-fp.github.io/Miette---Muse/Miette&Muse/)
+🔗 [View Live Website](https://milad-fp.github.io/Miette---Muse/)
 
 ---
 
