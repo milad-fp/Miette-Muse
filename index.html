@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miette & Muse</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/resbonsiv.css" />
+    <link rel="icon" type="image/png" href="src/assets/images/fav-ion.png" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div id="header-container">
+        <div class="logo">
+          <a href="#">
+            <div class="logo-icon">M</div>
+            <div class="logo-text-group">
+              <span class="logo-title">Miette & Muse</span>
+              <span class="logo-subtitle">PÂTISSERIE • EST. 2018</span>
+            </div>
+          </a>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#" class="active">Shop</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div id="header-actions">
+          <button class="search-btn" aria-label="Search">
+            <i class="ph ph-magnifying-glass"></i>
+          </button>
+
+          <a href="#" class="cart-btn" aria-label="Cart">
+            <i class="ph ph-shopping-bag-open"></i>
+          </a>
+
+          <a href="#" class="order-btn">
+            <span>ORDER NOW</span>
+            <i class="ph ph-arrow-up-right"></i>
+          </a>
+
+          <button class="hamburger-btn" aria-label="Menu">
+            <i class="ph ph-list"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <aside>
+      <div class="mobile-sidebar" id="mobileSidebar">
+        <div class="sidebar-header">
+          <div class="logo-icon">M</div>
+          <button
+            class="close-sidebar-btn"
+            id="closeSidebar"
+            aria-label="Close Menu"
+          >
+            <i class="ph ph-x"></i>
+          </button>
+        </div>
+        <ul class="sidebar-links">
+          <li><a href="#" class="active">Shop</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    </aside>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-top-info">
+              <span class="fresh-tag">
+                <i class="ph ph-arrow-right"></i> fresh today
+              </span>
+              <span class="location-tag">PARIS • LYON • YOUR TABLE</span>
+            </div>
+
+            <h1 class="hero-title">
+              MADE FOR<br />
+              SWEET<br />
+              MOMENTS.
+            </h1>
+
+            <p class="hero-description">
+              Little luxuries, layered by hand. French<br />
+              technique meets a wink of nostalgia in every<br />
+              pastry we make.
+            </p>
+
+            <a href="#" class="hero-btn">
+              <span>SHOP THE BAKERY</span>
+              <i class="ph ph-arrow-up-right"></i>
+            </a>
+          </div>
+
+          <div class="hero-visual">
+            <img
+              src="src/assets/images/Butter backdrop.png"
+              alt="Yellow Backdrop"
+              class="yellow-backdrop"
+            />
+
+            <img
+              src="src/assets/images/Pistachio accent.png"
+              alt="Pistachio Accent"
+              class="pistachio-accent"
+            />
+
+            <div class="small-batch-badge">
+              <span>small<br />batch<br />always</span>
+            </div>
+
+            <div class="hero-image-wrapper">
+              <img
+                src="src/assets/images/Hero pastry photograph.png"
+                alt="Sweet Moments Bakery"
+              />
+            </div>
+
+            <img
+              src="src/assets/images/Floating croissant.png"
+              alt="Floating Croissant"
+              class="floating-croissant"
+            />
+
+            <div class="baked-with-love">
+              <span>baked with love</span> <i class="ph ph-heart"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-ticker">
+          <div class="ticker-track">
+            <span
+              >FRESHLY BAKED ♦ HANDCRAFTED DAILY ♦ SWEET MOMENTS ♦&nbsp;</span
+            >
+            <span
+              >FRESHLY BAKED ♦ HANDCRAFTED DAILY ♦ SWEET MOMENTS ♦&nbsp;</span
+            >
+            <span
+              >FRESHLY BAKED ♦ HANDCRAFTED DAILY ♦ SWEET MOMENTS ♦&nbsp;</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section">
+        <div class="story-container">
+          <div class="story-visual">
+            <img
+              src="src/assets/images/Peach shape.png"
+              alt="Pink Backdrop"
+              class="pink-backdrop"
+            />
+
+            <div class="story-image-wrapper">
+              <img
+                src="src/assets/images/Baker lifestyle photograph (1).png"
+                alt="Good Things Take Time"
+              />
+            </div>
+
+            <div class="story-badge">
+              <span class="badge-label">MADE SLOWLY</span>
+              <span class="badge-text">Worth the wait.</span>
+            </div>
+          </div>
+
+          <div class="story-content">
+            <span class="subtitle">
+              <span class="dot">•</span> our little story
+            </span>
+            <h2 class="story-title">
+              Good things <br />
+              take time.
+            </h2>
+            <p class="story-description">
+              We believe the best pastries begin long before the first bite—with
+              cultured butter, patient doughs, and recipes worth keeping.
+            </p>
+            <p class="story-subtext">
+              Miette & Muse began around a tiny kitchen table and a stubborn
+              devotion to beautiful things. Today, our bakers fold, pipe, glaze,
+              and finish every piece by hand. French at heart, joyfully modern
+              in spirit, always made for sharing.
+            </p>
+
+            <div class="story-stats">
+              <div class="stat-item">
+                <span class="stat-number">48h</span>
+                <span class="stat-label">FOR OUR CROISSANT DOUGH</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">REAL BUTTER & GOOD EGGS</span>
+              </div>
+            </div>
+
+            <div class="story-footer">
+              <a href="#" class="read-more-btn">
+                Read Our Story <span>↗</span>
+              </a>
+              <span class="founder-signature">
+                <i class="ph ph-sparkle"></i> Clara, founder & pastry taster
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products-section">
+        <div class="products-header">
+          <div class="title-top">
+            <div class="subtitle">
+              <span class="dot">•</span> FROM THE PASTRY CASE
+            </div>
+            <h2>MEET THE SWEET STARS</h2>
+          </div>
+          <span class="header-action">
+            <span>go on, pick a favourite</span>
+            <i class="ph ph-arrow-down-left"></i>
+          </span>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card peach-card">
+            <div class="card-badge">CULT FAVOURITE</div>
+            <div class="product-image-container">
+              <div class="circle-bg"></div>
+              <img
+                src="src/assets/images/Product photograph.png"
+                alt="Chocolate Cookie"
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-details">
+                <span class="product-name">Chocolate Cookie</span>
+                <span class="product-price">€4.50</span>
+              </div>
+              <button class="add-to-cart-btn">
+                <span>ADD TO CART</span>
+                <i class="ph ph-plus plus-icon"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card green-card">
+            <div class="card-badge">BAKER'S PICK</div>
+            <div class="product-image-container">
+              <div class="circle-bg"></div>
+              <img
+                src="src/assets/images/Product photograph (1).png"
+                alt="Pistachio Croissant"
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-details">
+                <span class="product-name">Pistachio Croissant</span>
+                <span class="product-price">€7.20</span>
+              </div>
+              <button class="add-to-cart-btn">
+                <span>ADD TO CART</span>
+                <i class="ph ph-plus plus-icon"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card yellow-card">
+            <div class="card-badge">IN SEASON</div>
+            <div class="product-image-container">
+              <div class="circle-bg"></div>
+              <img
+                src="src/assets/images/Product photograph (2).png"
+                alt="Strawberry Tart"
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-details">
+                <span class="product-name">Strawberry Tart</span>
+                <span class="product-price">€8.00</span>
+              </div>
+              <button class="add-to-cart-btn">
+                <span>ADD TO CART</span>
+                <i class="ph ph-plus plus-icon"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card brown-card">
+            <div class="card-badge">VERY CHOCOLATE</div>
+            <div class="product-image-container">
+              <div class="circle-bg"></div>
+              <img
+                src="src/assets/images/Product photograph (3).png"
+                alt="Chocolate Cake"
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-details">
+                <span class="product-name">Chocolate Cake</span>
+                <span class="product-price">€9.50</span>
+              </div>
+              <button class="add-to-cart-btn">
+                <span>ADD TO CART</span>
+                <i class="ph ph-plus plus-icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-footer">
+          <span>Baked in small batches · Available until sold out</span>
+          <a href="#" class="shop-all">
+            <span>SHOP ALL PASTRIES</span>
+            <i class="ph ph-arrow-up-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="featured-section">
+        <div class="featured-container">
+          <div class="featured-content">
+            <div class="subtitle1">
+              <span class="dot">•</span> THIS WEEK'S OBSESSION
+            </div>
+
+            <h2 class="featured-title">
+              ONE MORE<br />
+              BITE?
+            </h2>
+
+            <p class="featured-description">
+              Meet the Salted Caramel Paris-Brest: praline cream, toasted
+              hazelnuts, choux with a proper crackle—and just enough sea salt to
+              make you reach for another forkful.
+            </p>
+
+            <div class="featured-action-row">
+              <a href="#" class="taste-btn">
+                <span>TASTE THE FEATURE</span>
+                <i class="ph ph-arrow-up-right"></i>
+              </a>
+              <span class="featured-price">€12.00</span>
+            </div>
+
+            <div class="featured-footer-note">
+              <i class="ph ph-arrow-up-right"></i>
+              <span>weekends only, darling</span>
+            </div>
+          </div>
+
+          <div class="featured-visual">
+            <div class="product-circle-bg"></div>
+
+            <div class="limited-badge">
+              <span>limited<br />week<br />end<br />drop</span>
+            </div>
+
+            <div class="featured-image-wrapper">
+              <img
+                src="src/assets/images/Featured product photograph.png"
+                alt="Salted Caramel Paris-Brest"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mood-section">
+        <div class="mood-header">
+          <div class="header-left">
+            <div class="subtitle">
+              <span class="dot">•</span> FOLLOW YOUR CRAVING
+            </div>
+            <h2 class="title">WHAT'S YOUR MOOD?</h2>
+          </div>
+
+          <div class="header-right">
+            <p class="header-desc">
+              A little crisp? Deeply chocolate? Fruit-forward?<br />
+              There's no wrong answer—only what sounds delicious right now.
+            </p>
+          </div>
+        </div>
+
+        <div class="mood-grid">
+          <div class="mood-card">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Category photograph.png"
+                alt="Cookies"
+              />
+            </div>
+            <h3 class="category-name">Cookies</h3>
+            <p class="category-desc">CHEWY & GOOEY</p>
+          </div>
+
+          <div class="mood-card">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Category photograph (1).png"
+                alt="Cakes"
+              />
+            </div>
+            <h3 class="category-name">Cakes</h3>
+            <p class="category-desc">LAYERED FOR DAYS</p>
+          </div>
+
+          <div class="mood-card">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Category photograph (2).png"
+                alt="Croissants"
+              />
+            </div>
+            <h3 class="category-name">Croissants</h3>
+            <p class="category-desc">BUTTERY & BRONZED</p>
+          </div>
+
+          <div class="mood-card">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Category photograph (3).png"
+                alt="Pastries"
+              />
+            </div>
+            <h3 class="category-name">Pastries</h3>
+            <p class="category-desc">LITTLE WORKS OF ART</p>
+          </div>
+
+          <div class="mood-card">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Category photograph (4).png"
+                alt="Tarts"
+              />
+            </div>
+            <h3 class="category-name">Tarts</h3>
+            <p class="category-desc">BRIGHT & JEWEL-LIKE</p>
+          </div>
+
+          <div class="mood-card">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Category photograph (5).png"
+                alt="Seasonal"
+              />
+            </div>
+            <h3 class="category-name">Seasonal</h3>
+            <p class="category-desc">HERE FOR A GOOD TIME</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="baked-real-life-section">
+        <div class="shape-green"></div>
+        <div class="shape-yellow">
+          <div class="yellow-shape-content">
+            <i class="ph ph-camera"></i>
+            <span>MAKE IT A MOMENT</span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="baked-card card-left">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Friends at bakery photograph.png"
+                alt="Friends at bakery"
+              />
+            </div>
+          </div>
+
+          <div class="baked-center-content">
+            <div class="subtitle centert">
+              <span class="dot">•</span> THE EVERYDAY CELEBRATION
+            </div>
+
+            <h1 class="main-title">BAKED FOR REAL LIFE.</h1>
+            <p class="description">
+              First dates, kitchen dancing, Tuesday pick-me-ups,<br />
+              more-slice nights. Save the plate—or don't.
+            </p>
+
+            <div class="baked-card card-middle">
+              <div class="image-wrapper">
+                <img
+                  src="src/assets/images/Bakery counter photograph.png"
+                  alt="Bakery counter"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="handwritten-note">
+            <span>crumbs are part of the memory</span>
+            <i class="ph ph-arrow-up"></i>
+          </div>
+
+          <div class="baked-card card-right">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Hands sharing cake photograph.png"
+                alt="Hands sharing cake"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="testimonial-container">
+          <div class="quote-icon-box">
+            <span class="quote-mark">“</span>
+          </div>
+
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="ph ph-star"></i>
+              <i class="ph ph-star"></i>
+              <i class="ph ph-star"></i>
+              <i class="ph ph-star"></i>
+              <i class="ph ph-star"></i>
+            </div>
+
+            <p class="quote-text">
+              “It feels like the bakery from a beautiful old film—except the
+              croissants are somehow even better. I came for one tart and left
+              with a whole celebration.”
+            </p>
+
+            <div class="quote-footer">
+              <span class="author-name"
+                >ELODIE MARTIN • REGULAR SINCE DAY ONE</span
+              >
+              <span class="note-number">Notes from our table № 24</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter-section">
+        <div class="shape-pink-bg"></div>
+        <div class="shape-green-bg"></div>
+
+        <div class="newsletter-container">
+          <div class="newsletter-image-card">
+            <div class="image-wrapper">
+              <img
+                src="src/assets/images/Newsletter pastry photograph.png"
+                alt="Bakery treats"
+              />
+            </div>
+          </div>
+
+          <div class="newsletter-content">
+            <div class="subtitle">LOVE NOTES, FRESH FROM THE OVEN</div>
+
+            <h2 class="main-title">LET'S KEEP THINGS SWEET.</h2>
+
+            <p class="description">
+              New pastries, secret menu drops, and notes from our kitchen. Just
+              enough sugar for your inbox.
+            </p>
+
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email address" required />
+              <button type="submit" class="submit-btn">
+                <span>JOIN THE LIST</span>
+                <i class="ph ph-arrow-right"></i>
+              </button>
+            </form>
+
+            <p class="spam-note">
+              No spam, only the delicious kind. Unsubscribe anytime.
+            </p>
+          </div>
+
+          <div class="newsletter-handwritten-note">
+            <i class="ph ph-envelope"></i>
+            <span
+              >a treat for your<br />
+              inbox</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col brand-col">
+          <div class="footer-logo-wrapper">
+            <div class="footer-logo-icon">M</div>
+            <div class="footer-logo-text">
+              <span class="footer-title">Miette & Muse</span>
+              <span class="footer-subtitle">PÂTISSERIE • EST. 2018</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Small-batch pastries for life’s sweetest moments.
+          </p>
+          <div class="footer-contact-info">
+            <p>18 rue des Fleurs, Lyon 2e</p>
+            <p>bonjour@mietteandmuse.fr • +33 4 72 18 08 18</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">EXPLORE</h4>
+          <ul class="footer-links">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">FOLLOW ALONG</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="#">Instagram <i class="ph ph-arrow-up-right"></i></a>
+            </li>
+            <li>
+              <a href="#">Pinterest <i class="ph ph-arrow-up-right"></i></a>
+            </li>
+            <li>
+              <a href="#">TikTok <i class="ph ph-arrow-up-right"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col hours-col">
+          <h4 class="footer-heading">OPENING HOURS</h4>
+          <div class="hours-row">
+            <span>Tuesday—Friday</span>
+            <span class="hours-time">8:00–18:00</span>
+          </div>
+          <div class="hours-row">
+            <span>Saturday—Sunday</span>
+            <span class="hours-time">9:00–16:00</span>
+          </div>
+          <div class="hours-row monday-row">
+            <span>Monday</span>
+            <span class="closed-status">Closed · dough resting</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <span class="copyright">© 2026 Miette & Muse Pâtisserie</span>
+          <h2 class="footer-big-title">MADE WITH BUTTER & HEART.</h2>
+          <div class="footer-legal">
+            <a href="#">Privacy</a> • <a href="#">Terms</a> •
+            <a href="#">Allergens</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
